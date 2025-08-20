@@ -54,4 +54,5 @@ This project is built using the MERN stack with EJS for templating.
 ## Author
 
 Veda Shiva Prasad
-Email: [vedashivaprasad@gmail.com]
+Email: [vedashivaprasad97@gmail.com]
+
