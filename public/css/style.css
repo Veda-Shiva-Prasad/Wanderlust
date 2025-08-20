@@ -1,0 +1,217 @@
+/* General Styles */
+body {
+  font-family: "Plus Jakarta Sans", sans-serif !important;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container {
+  flex: 1;
+}
+
+/* Left-align "All Listings" */
+.listings-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #222222;
+  text-align: left;
+  margin-left: 10px;
+}
+
+/* Container */
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.navbar {
+  height: 5rem;
+  background-color: white;
+}
+
+.fa-compass {
+  color: #fe424d;
+  font-size: 2rem;
+}
+
+.nav-link {
+  color: #222222 !important;
+}
+
+.f-info-links a {
+  text-decoration: none;
+  color: #222222;
+}
+
+.f-info-links a:hover {
+  text-decoration: underline;
+}
+
+.f-info-links,
+.f-info-socials,
+.f-info-brand {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.f-info-socials i {
+  font-size: 1.2rem;
+  margin-right: 1rem;
+}
+
+.f-info {
+  text-align: center;
+  height: 8rem;
+  background-color: #ebebeb;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Listing Card Styles */
+.index-card {
+  width: 18rem !important;
+  height: auto;
+  margin: 10px;
+  border-radius: 1rem;
+  border: none;
+  overflow: hidden;
+}
+
+.index-card-img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.card-body {
+  padding: 15px;
+}
+
+/* Listing title - darker text */
+.listing-title {
+  font-weight: 700;
+  color: #111;
+}
+
+/* Pricing */
+.price {
+  /* font-weight: bold; */
+  color: #222222;
+}
+
+/* Fixing last row image alignment */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Card-img-overlay */
+.card-img-overlay {
+  opacity: 0;
+}
+
+.card-img-overlay:hover {
+  opacity: 0.2;
+  background-color: white;
+}
+
+/* New Page */
+.add-btn {
+  background-color: #fe424d !important;
+  border: none !important;
+}
+
+/* Edit Page */
+.edit-btn {
+  background-color: #fe424d !important;
+  border: none !important;
+  padding: 5px 10px !important;
+}
+
+/* Show Page Image Fix */
+.show-img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.listing-card {
+  border: none !important;
+  margin-bottom: 2rem !important;
+}
+/* show page */
+.show-img {
+  height: 30vh;
+}
+
+.btns {
+  display: flex;
+}
+.show-card {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* Flex container for both buttons */
+.btns {
+  display: flex;
+  justify-content: flex-start;
+  gap: 1rem;
+  margin-left: 25%;
+  margin-top: 1.5rem;
+}
+
+/* Button container */
+.btns {
+  display: flex;
+  justify-content: flex-start;
+  gap: 1rem;
+  margin-left: 25%;
+  margin-top: 1.5rem;
+}
+
+/* Base button style for both <a> and <button> */
+.btns .btn,
+.btns .btn:link,
+.btns .btn:visited {
+  display: inline-block;
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  text-align: center;
+  line-height: 1.2;
+  border-radius: 8px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  text-decoration: none; /* removes underline from <a> */
+  transition: background-color 0.3s ease;
+}
+
+/* Red edit button */
+.btns .edit-btn {
+  background-color: #ff4d4d;
+  width: 90px;
+  height: 37px;
+}
+
+.btns .edit-btn:hover {
+  background-color: #e04343;
+}
+
+/* Black delete button */
+.btns .delete-btn {
+  background-color: #000000;
+}
+
+.navbar-search {
+  margin-left: 11rem; /* move right */
+  margin-top: 0.9rem; /* move down */
+}
